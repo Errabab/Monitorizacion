@@ -185,5 +185,66 @@ bmon
 ![img](/img/M15.png)
 ![img](/img/M16.png)
 
+
+## Monitorización del Sistema con el Comando top
+- ***top***:
+    Es una herramienta interactiva que muestra en tiempo real los procesos que están en ejecución en el sistema, junto con estadísticas de uso de recursos.
+
+- **Información destacada**:
+
+    - **Uso del CPU**: Porcentaje de CPU utilizado por cada proceso.
+    - **Uso de memoria**: Cantidad de memoria RAM utilizada.
+    - **Tiempo de ejecución**: Tiempo activo de cada proceso.
+    - **PID**: Identificador del proceso.
+- ***Controles comunes***:
+
+    - **q**: Salir de top.
+    - **k**: Finalizar un proceso especificando su PID.
+    - **h**: Mostrar ayuda interactiva.
+    - **P**: Ordenar los procesos por uso de CPU.
+    - **M**: Ordenar los procesos por uso de memoria.
+**Nota**: top es esencial para la monitorización en tiempo real de los recursos del sistema y para identificar procesos problemáticos.
+
+
+### Comando Utilizado
+
+```bash
+
+ atop
+
+```
+
+![img](/img/M17.png)
+
+
+## Monitorización Avanzada del Sistema con el Comando htop
+- ***htop***:
+    Es una herramienta interactiva y visual para monitorizar procesos y recursos del sistema, que mejora la experiencia de top con una interfaz más amigable y personalizable.
+
+- **Características principales**:
+
+    - Muestra barras de uso de CPU, RAM y swap en tiempo real.
+    - Permite navegar fácilmente entre los procesos con las teclas de flecha.
+    - Soporta acciones rápidas, como finalizar procesos directamente.
+    -Ofrece filtros y opciones de búsqueda para localizar procesos específicos.
+- **Atajos útiles**:
+
+    - **F3**: Buscar un proceso por nombre.
+    - **F5**: Mostrar los procesos en formato de árbol (jerarquía).
+    - **F9**: Finalizar un proceso seleccionándolo.
+    - **F10**: Salir de htop.
+**Nota**: htop es ideal para usuarios que prefieren una experiencia visual más intuitiva y necesitan herramientas avanzadas para gestionar procesos.
+
+### Comando Utilizado
+
+```bash
+
+ htop
+
+```
+
+![img](/img/M18.png)
+
+
 # Autor
     Errabab Salec Ahrime
