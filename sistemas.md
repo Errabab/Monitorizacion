@@ -32,7 +32,9 @@ Antes de implementar estas herramientas, es fundamental preparar el entorno con 
 **Node Exporter** es un agente que recopila métricas del sistema, como uso de CPU, memoria, disco y red. Es parte de Prometheus y está diseñado para integrarse fácilmente con esta herramienta de monitorización.
 
 ![.](/img/M19.png)
+
 ![.](/img/M21.png)
+
 ![.](/img/M22.png)
 
 
