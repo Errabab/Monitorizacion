@@ -21,4 +21,4 @@
 * Manuel Domínguez
 
 # Autor
-    Errabab Salec Ahrime
+    Errabab Salec Ahriem
